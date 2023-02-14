@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="css/connect4style.css" />
+    <script src="js/connect4main.js" defer></script>
+</head>
+
+<body>
+    <h1>Connect 4</h1>
+    <div id="welcome"> <!--welcome page-->
+        <h2>Welcome</h2>
+        <button id="startButton">Start Game</button>
+    </div>
+    <div id="game" style="display: none"> <!--game page-->
+        <h2>Game Start</h2>
+        <hr />
+       <table border="1"> <!--game contsiner-->
+        <thead>
+        <tr>
+            <td><button class="drop">V</button></td>
+            <td><button class="drop">V</button></td>
+            <td><button class="drop">V</button></td>
+            <td><button class="drop">V</button></td>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+        <p>Game Board</p>
+        <button id="scoreButton">Score</button>
+    </div>
+    <div id="score"> <!--Score page-->
+        <h2>High Score</h2>
+    </div>
+</body>
+
+</html>
